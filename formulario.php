@@ -38,7 +38,6 @@
                                 <center><input type="text" id="descripcion" name="descripcion" placeholder="Descripcion producto"><br>
                                 <center><input type="text" id="stock" name="stock" placeholder="Stock producto"><br>
                                 <center><input type="text" id="precio" name="precio" placeholder="Precio producto"><br>
-                                <center><select name="nom_categoria" id="nom_categoria" ><?php echo $cat->mostrar_categorias();?></select>
                                 <center><button id="boton" name="guardar"type="submit">Agregar</button>
                         </form>
                     </div>
